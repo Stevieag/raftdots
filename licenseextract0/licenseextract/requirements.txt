@@ -1,7 +1,7 @@
 aiodns==2.0.0
 aiofiles==0.8.0
 aioftp==0.22.3
-aiohttp==3.8.0
+aiohttp==3.10.2
 aiohttp_retry==2.8.3
 aiosmtplib==2.0.1
 alembic==1.10.4
