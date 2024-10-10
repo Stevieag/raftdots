@@ -1,0 +1,817 @@
+
+70a795265787 (debian 11.10)
+===========================
+Total: 227 (HIGH: 210, CRITICAL: 17)
+
+┌─────────────────────────────┬────────────────┬──────────┬──────────────┬──────────────────────────────┬───────────────┬──────────────────────────────────────────────────────────────┐
+│           Library           │ Vulnerability  │ Severity │    Status    │      Installed Version       │ Fixed Version │                            Title                             │
+├─────────────────────────────┼────────────────┼──────────┼──────────────┼──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ bash                        │ CVE-2022-3715  │ HIGH     │ affected     │ 5.1-2+deb11u1                │               │ bash: a heap-buffer-overflow in valid_parameter_transform    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-3715                    │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ comerr-dev                  │ CVE-2022-1304  │          │              │ 2.1-1.46.2-2                 │               │ e2fsprogs: out-of-bounds read/write via crafted filesystem   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-1304                    │
+├─────────────────────────────┼────────────────┼──────────┼──────────────┼──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ curl                        │ CVE-2023-23914 │ CRITICAL │ will_not_fix │ 7.74.0-1.3+deb11u12          │               │ curl: HSTS ignored on multiple requests                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-23914                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-42916 │ HIGH     │              │                              │               │ curl: HSTS bypass via IDN                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-42916                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-43551 │          │              │                              │               │ curl: HSTS bypass via IDN                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-43551                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┼──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ e2fsprogs                   │ CVE-2022-1304  │          │ affected     │ 1.46.2-2                     │               │ e2fsprogs: out-of-bounds read/write via crafted filesystem   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-1304                    │
+├─────────────────────────────┼────────────────┼──────────┤              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ git                         │ CVE-2024-32002 │ CRITICAL │              │ 1:2.30.2-1+deb11u2           │               │ git: Recursive clones RCE                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-32002                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-25652 │ HIGH     │              │                              │               │ git: by feeding specially crafted input to `git apply        │
+│                             │                │          │              │                              │               │ --reject`, a path...                                         │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-25652                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-29007 │          │              │                              │               │ git: arbitrary configuration injection when renaming or      │
+│                             │                │          │              │                              │               │ deleting a section from a...                                 │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-29007                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-32004 │          │              │                              │               │ git: RCE while cloning local repos                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-32004                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-32465 │          │              │                              │               │ git: additional local RCE                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-32465                   │
+├─────────────────────────────┼────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ git-man                     │ CVE-2024-32002 │ CRITICAL │              │                              │               │ git: Recursive clones RCE                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-32002                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-25652 │ HIGH     │              │                              │               │ git: by feeding specially crafted input to `git apply        │
+│                             │                │          │              │                              │               │ --reject`, a path...                                         │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-25652                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-29007 │          │              │                              │               │ git: arbitrary configuration injection when renaming or      │
+│                             │                │          │              │                              │               │ deleting a section from a...                                 │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-29007                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-32004 │          │              │                              │               │ git: RCE while cloning local repos                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-32004                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-32465 │          │              │                              │               │ git: additional local RCE                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-32465                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┼──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ imagemagick                 │ CVE-2021-20312 │          │ will_not_fix │ 8:6.9.11.60+dfsg-1.3+deb11u3 │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ imagemagick-6-common        │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ imagemagick-6.q16           │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ krb5-multidev               │ CVE-2024-26462 │          │              │ 1.18.3-6+deb11u5             │               │ krb5: Memory leak at /krb5/src/kdc/ndr.c                     │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-26462                   │
+├─────────────────────────────┼────────────────┼──────────┤              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libaom0                     │ CVE-2023-6879  │ CRITICAL │              │ 1.0.0.errata1-3+deb11u1      │               │ aom: heap-buffer-overflow on frame size change               │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-6879                    │
+│                             ├────────────────┼──────────┼──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2020-0478  │ HIGH     │ will_not_fix │                              │               │ In extend_frame_lowbd of restoration.c, there is a possible  │
+│                             │                │          │              │                              │               │ out of bou ......                                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2020-0478                    │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-5171  │          │ affected     │                              │               │ libaom: Integer overflow in internal                         │
+│                             │                │          │              │                              │               │ function img_alloc_helper                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-5171                    │
+├─────────────────────────────┼────────────────┼──────────┤              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libbluetooth-dev            │ CVE-2021-43400 │ CRITICAL │              │ 5.55-3.1+deb11u1             │               │ bluez: use-after-free in gatt-database.c                     │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-43400                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-0204  │ HIGH     │              │                              │               │ bluez: heap-based buffer overflow in the implementation of   │
+│                             │                │          │              │                              │               │ the gatt protocol                                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-0204                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-39176 │          │              │                              │               │ bluez: BlueZ allows physically proximate attackers to obtain │
+│                             │                │          │              │                              │               │ sensitive information because profiles/audio/avrcp.c...      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-39176                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-39177 │          │              │                              │               │ bluez: BlueZ allows physically proximate attackers to cause  │
+│                             │                │          │              │                              │               │ a denial of service...                                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-39177                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-27349 │          │              │                              │               │ BlueZ: Audio Profile AVRCP Improper Validation of Array      │
+│                             │                │          │              │                              │               │ Index Remote Code Execution...                               │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-27349                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-44431 │          │ fix_deferred │                              │               │ bluez: AVRCP stack-based buffer overflow remote code         │
+│                             │                │          │              │                              │               │ execution vulnerability                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-44431                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-50229 │          │ affected     │                              │               │ bluez: phone book access profile heap-based buffer overflow  │
+│                             │                │          │              │                              │               │ remote code execution vulnerability...                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-50229                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-50230 │          │              │                              │               │ bluez: phone book access profile heap-based buffer overflow  │
+│                             │                │          │              │                              │               │ remote code execution vulnerability...                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-50230                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-51596 │          │ fix_deferred │                              │               │ bluez: phone book access profile heap-based buffer overflow  │
+│                             │                │          │              │                              │               │ remote code execution vulnerability...                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-51596                   │
+├─────────────────────────────┼────────────────┼──────────┼──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libbluetooth3               │ CVE-2021-43400 │ CRITICAL │ affected     │                              │               │ bluez: use-after-free in gatt-database.c                     │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-43400                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-0204  │ HIGH     │              │                              │               │ bluez: heap-based buffer overflow in the implementation of   │
+│                             │                │          │              │                              │               │ the gatt protocol                                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-0204                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-39176 │          │              │                              │               │ bluez: BlueZ allows physically proximate attackers to obtain │
+│                             │                │          │              │                              │               │ sensitive information because profiles/audio/avrcp.c...      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-39176                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-39177 │          │              │                              │               │ bluez: BlueZ allows physically proximate attackers to cause  │
+│                             │                │          │              │                              │               │ a denial of service...                                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-39177                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-27349 │          │              │                              │               │ BlueZ: Audio Profile AVRCP Improper Validation of Array      │
+│                             │                │          │              │                              │               │ Index Remote Code Execution...                               │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-27349                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-44431 │          │ fix_deferred │                              │               │ bluez: AVRCP stack-based buffer overflow remote code         │
+│                             │                │          │              │                              │               │ execution vulnerability                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-44431                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-50229 │          │ affected     │                              │               │ bluez: phone book access profile heap-based buffer overflow  │
+│                             │                │          │              │                              │               │ remote code execution vulnerability...                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-50229                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-50230 │          │              │                              │               │ bluez: phone book access profile heap-based buffer overflow  │
+│                             │                │          │              │                              │               │ remote code execution vulnerability...                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-50230                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-51596 │          │ fix_deferred │                              │               │ bluez: phone book access profile heap-based buffer overflow  │
+│                             │                │          │              │                              │               │ remote code execution vulnerability...                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-51596                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┼──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libcom-err2                 │ CVE-2022-1304  │          │ affected     │ 1.46.2-2                     │               │ e2fsprogs: out-of-bounds read/write via crafted filesystem   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-1304                    │
+├─────────────────────────────┼────────────────┼──────────┼──────────────┼──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libcurl3-gnutls             │ CVE-2023-23914 │ CRITICAL │ will_not_fix │ 7.74.0-1.3+deb11u12          │               │ curl: HSTS ignored on multiple requests                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-23914                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-42916 │ HIGH     │              │                              │               │ curl: HSTS bypass via IDN                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-42916                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-43551 │          │              │                              │               │ curl: HSTS bypass via IDN                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-43551                   │
+├─────────────────────────────┼────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libcurl4                    │ CVE-2023-23914 │ CRITICAL │              │                              │               │ curl: HSTS ignored on multiple requests                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-23914                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-42916 │ HIGH     │              │                              │               │ curl: HSTS bypass via IDN                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-42916                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-43551 │          │              │                              │               │ curl: HSTS bypass via IDN                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-43551                   │
+├─────────────────────────────┼────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libcurl4-openssl-dev        │ CVE-2023-23914 │ CRITICAL │              │                              │               │ curl: HSTS ignored on multiple requests                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-23914                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-42916 │ HIGH     │              │                              │               │ curl: HSTS bypass via IDN                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-42916                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-43551 │          │              │                              │               │ curl: HSTS bypass via IDN                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-43551                   │
+├─────────────────────────────┼────────────────┼──────────┼──────────────┼──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libdb5.3                    │ CVE-2019-8457  │ CRITICAL │ affected     │ 5.3.28+dfsg1-0.8             │               │ sqlite: heap out-of-bound read in function rtreenode()       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2019-8457                    │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ libdb5.3-dev                │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+├─────────────────────────────┼────────────────┼──────────┤              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libexpat1                   │ CVE-2023-52425 │ HIGH     │              │ 2.2.10-2+deb11u5             │               │ expat: parsing large tokens can trigger a denial of service  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52425                   │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ libexpat1-dev               │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libext2fs2                  │ CVE-2022-1304  │          │              │ 1.46.2-2                     │               │ e2fsprogs: out-of-bounds read/write via crafted filesystem   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-1304                    │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libgcrypt20                 │ CVE-2021-33560 │          │              │ 1.8.7-6                      │               │ libgcrypt: mishandles ElGamal encryption because it lacks    │
+│                             │                │          │              │                              │               │ exponent blinding to address a...                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-33560                   │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libgssapi-krb5-2            │ CVE-2024-26462 │          │              │ 1.18.3-6+deb11u5             │               │ krb5: Memory leak at /krb5/src/kdc/ndr.c                     │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-26462                   │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ libgssrpc4                  │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libharfbuzz0b               │ CVE-2023-25193 │          │              │ 2.7.4-1                      │               │ harfbuzz: allows attackers to trigger O(n^2) growth via      │
+│                             │                │          │              │                              │               │ consecutive marks                                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-25193                   │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libheif1                    │ CVE-2023-0996  │          │              │ 1.11.0-1                     │               │ There is a vulnerability in the strided image data parsing   │
+│                             │                │          │              │                              │               │ code in...                                                   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-0996                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-49460 │          │              │                              │               │ libheif v1.17.5 was discovered to contain a segmentation     │
+│                             │                │          │              │                              │               │ violation via ...                                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-49460                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-49462 │          │              │                              │               │ libheif v1.17.5 was discovered to contain a segmentation     │
+│                             │                │          │              │                              │               │ violation via ...                                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-49462                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-49463 │          │              │                              │               │ libheif v1.17.5 was discovered to contain a segmentation     │
+│                             │                │          │              │                              │               │ violation via ...                                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-49463                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-49464 │          │              │                              │               │ libheif v1.17.5 was discovered to contain a segmentation     │
+│                             │                │          │              │                              │               │ violation via ...                                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-49464                   │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libk5crypto3                │ CVE-2024-26462 │          │              │ 1.18.3-6+deb11u5             │               │ krb5: Memory leak at /krb5/src/kdc/ndr.c                     │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-26462                   │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ libkadm5clnt-mit12          │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ libkadm5srv-mit12           │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ libkdb5-10                  │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ libkrb5-3                   │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ libkrb5-dev                 │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ libkrb5support0             │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libldap-2.4-2               │ CVE-2023-2953  │          │              │ 2.4.57+dfsg-3+deb11u1        │               │ openldap: null pointer dereference in ber_memalloc_x         │
+│                             │                │          │              │                              │               │ function                                                     │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-2953                    │
+├─────────────────────────────┼────────────────┤          ├──────────────┼──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmagickcore-6-arch-config │ CVE-2021-20312 │          │ will_not_fix │ 8:6.9.11.60+dfsg-1.3+deb11u3 │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmagickcore-6-headers     │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmagickcore-6.q16-6       │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmagickcore-6.q16-6-extra │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmagickcore-6.q16-dev     │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmagickcore-dev           │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmagickwand-6-headers     │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmagickwand-6.q16-6       │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmagickwand-6.q16-dev     │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libmagickwand-dev           │ CVE-2021-20312 │          │ will_not_fix │                              │               │ ImageMagick: Integer overflow in WriteTHUMBNAILImage of      │
+│                             │                │          │              │                              │               │ coders/thumbnail.c                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20312                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-20313 │          │ affected     │                              │               │ ImageMagick: Cipher leak when the calculating signatures in  │
+│                             │                │          │              │                              │               │ TransformSignatureof MagickCore/signature.c                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-20313                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-40211 │          │              │                              │               │ ImageMagick: Division by zero in ReadEnhMetaFile lead to DoS │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-40211                   │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libopenjp2-7                │ CVE-2021-3575  │          │              │ 2.4.0-3                      │               │ openjpeg: heap-buffer-overflow in color.c may lead to DoS or │
+│                             │                │          │              │                              │               │ arbitrary code execution...                                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-3575                    │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ libopenjp2-7-dev            │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libperl5.32                 │ CVE-2020-16156 │          │              │ 5.32.1-4+deb11u3             │               │ perl-CPAN: Bypass of verification of signatures in CHECKSUMS │
+│                             │                │          │              │                              │               │ files                                                        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2020-16156                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-31484 │          │              │                              │               │ perl: CPAN.pm does not verify TLS certificates when          │
+│                             │                │          │              │                              │               │ downloading distributions over HTTPS...                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-31484                   │
+├─────────────────────────────┼────────────────┼──────────┤              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libpython3.9-minimal        │ CVE-2021-29921 │ CRITICAL │              │ 3.9.2-1                      │               │ python-ipaddress: Improper input validation of octal strings │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-29921                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2015-20107 │ HIGH     │              │                              │               │ python: mailcap: findmatch() function does not sanitize the  │
+│                             │                │          │              │                              │               │ second argument                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2015-20107                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2020-10735 │          │              │                              │               │ python: int() type in PyLong_FromString() does not limit     │
+│                             │                │          │              │                              │               │ amount of digits converting...                               │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2020-10735                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-3737  │          │              │                              │               │ python: urllib: HTTP client possible infinite loop on a 100  │
+│                             │                │          │              │                              │               │ Continue response...                                         │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-3737                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-0391  │          │              │                              │               │ python: urllib.parse does not sanitize URLs containing ASCII │
+│                             │                │          │              │                              │               │ newline and tabs                                             │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-0391                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-42919 │          │              │                              │               │ python: local privilege escalation via the multiprocessing   │
+│                             │                │          │              │                              │               │ forkserver start method                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-42919                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-45061 │          │              │                              │               │ python: CPU denial of service via inefficient IDNA decoder   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-45061                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-24329 │          │              │                              │               │ python: urllib.parse url blocklisting bypass                 │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-24329                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-6597  │          │              │                              │               │ python: Path traversal on tempfile.TemporaryDirectory        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-6597                    │
+├─────────────────────────────┼────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libpython3.9-stdlib         │ CVE-2021-29921 │ CRITICAL │              │                              │               │ python-ipaddress: Improper input validation of octal strings │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-29921                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2015-20107 │ HIGH     │              │                              │               │ python: mailcap: findmatch() function does not sanitize the  │
+│                             │                │          │              │                              │               │ second argument                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2015-20107                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2020-10735 │          │              │                              │               │ python: int() type in PyLong_FromString() does not limit     │
+│                             │                │          │              │                              │               │ amount of digits converting...                               │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2020-10735                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-3737  │          │              │                              │               │ python: urllib: HTTP client possible infinite loop on a 100  │
+│                             │                │          │              │                              │               │ Continue response...                                         │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-3737                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-0391  │          │              │                              │               │ python: urllib.parse does not sanitize URLs containing ASCII │
+│                             │                │          │              │                              │               │ newline and tabs                                             │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-0391                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-42919 │          │              │                              │               │ python: local privilege escalation via the multiprocessing   │
+│                             │                │          │              │                              │               │ forkserver start method                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-42919                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-45061 │          │              │                              │               │ python: CPU denial of service via inefficient IDNA decoder   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-45061                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-24329 │          │              │                              │               │ python: urllib.parse url blocklisting bypass                 │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-24329                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-6597  │          │              │                              │               │ python: Path traversal on tempfile.TemporaryDirectory        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-6597                    │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libsqlite3-0                │ CVE-2021-31239 │          │              │ 3.34.1-3                     │               │ sqlite: denial of service via the appendvfs.c function       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-31239                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-7104  │          │              │                              │               │ sqlite: heap-buffer-overflow at sessionfuzz                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-7104                    │
+├─────────────────────────────┼────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libsqlite3-dev              │ CVE-2021-31239 │          │              │                              │               │ sqlite: denial of service via the appendvfs.c function       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-31239                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-7104  │          │              │                              │               │ sqlite: heap-buffer-overflow at sessionfuzz                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-7104                    │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libss2                      │ CVE-2022-1304  │          │              │ 1.46.2-2                     │               │ e2fsprogs: out-of-bounds read/write via crafted filesystem   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-1304                    │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libsystemd0                 │ CVE-2023-50387 │          │              │ 247.3-7+deb11u5              │               │ bind9: KeyTrap - Extreme CPU consumption in DNSSEC validator │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-50387                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-50868 │          │              │                              │               │ bind9: Preparing an NSEC3 closest encloser proof can exhaust │
+│                             │                │          │              │                              │               │ CPU resources                                                │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-50868                   │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libtiff-dev                 │ CVE-2023-52355 │          │              │ 4.2.0-1+deb11u5              │               │ libtiff: TIFFRasterScanlineSize64 produce too-big size and   │
+│                             │                │          │              │                              │               │ could cause OOM                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52355                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52356 │          │              │                              │               │ libtiff: Segment fault in libtiff in TIFFReadRGBATileExt()   │
+│                             │                │          │              │                              │               │ leading to denial of...                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52356                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-6716  │          │              │                              │               │ libtiff: Out-of-memory issue in TIFFReadEncodedStrip() may   │
+│                             │                │          │              │                              │               │ lead to Denial of Service                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-6716                    │
+├─────────────────────────────┼────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libtiff5                    │ CVE-2023-52355 │          │              │                              │               │ libtiff: TIFFRasterScanlineSize64 produce too-big size and   │
+│                             │                │          │              │                              │               │ could cause OOM                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52355                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52356 │          │              │                              │               │ libtiff: Segment fault in libtiff in TIFFReadRGBATileExt()   │
+│                             │                │          │              │                              │               │ leading to denial of...                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52356                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-6716  │          │              │                              │               │ libtiff: Out-of-memory issue in TIFFReadEncodedStrip() may   │
+│                             │                │          │              │                              │               │ lead to Denial of Service                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-6716                    │
+├─────────────────────────────┼────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libtiffxx5                  │ CVE-2023-52355 │          │              │                              │               │ libtiff: TIFFRasterScanlineSize64 produce too-big size and   │
+│                             │                │          │              │                              │               │ could cause OOM                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52355                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52356 │          │              │                              │               │ libtiff: Segment fault in libtiff in TIFFReadRGBATileExt()   │
+│                             │                │          │              │                              │               │ leading to denial of...                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52356                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-6716  │          │              │                              │               │ libtiff: Out-of-memory issue in TIFFReadEncodedStrip() may   │
+│                             │                │          │              │                              │               │ lead to Denial of Service                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-6716                    │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libudev1                    │ CVE-2023-50387 │          │              │ 247.3-7+deb11u5              │               │ bind9: KeyTrap - Extreme CPU consumption in DNSSEC validator │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-50387                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-50868 │          │              │                              │               │ bind9: Preparing an NSEC3 closest encloser proof can exhaust │
+│                             │                │          │              │                              │               │ CPU resources                                                │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-50868                   │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libxml2                     │ CVE-2022-2309  │          │              │ 2.9.10+dfsg-6.7+deb11u4      │               │ lxml: NULL Pointer Dereference in lxml                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-2309                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-25062 │          │              │                              │               │ libxml2: use-after-free in XMLReader                         │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-25062                   │
+├─────────────────────────────┼────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ libxml2-dev                 │ CVE-2022-2309  │          │              │                              │               │ lxml: NULL Pointer Dereference in lxml                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-2309                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-25062 │          │              │                              │               │ libxml2: use-after-free in XMLReader                         │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-25062                   │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ libzstd1                    │ CVE-2022-4899  │          │              │ 1.4.8+dfsg-2.1               │               │ zstd: mysql: buffer overrun in util.c                        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-4899                    │
+├─────────────────────────────┼────────────────┤          ├──────────────┼──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ linux-libc-dev              │ CVE-2013-7445  │          │ will_not_fix │ 5.10.221-1                   │               │ kernel: memory exhaustion via crafted Graphics Execution     │
+│                             │                │          │              │                              │               │ Manager (GEM) objects                                        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2013-7445                    │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2019-19449 │          │ fix_deferred │                              │               │ kernel: mounting a crafted f2fs filesystem image can lead to │
+│                             │                │          │              │                              │               │ slab-out-of-bounds read...                                   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2019-19449                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2019-19814 │          │ affected     │                              │               │ kernel: out-of-bounds write in __remove_dirty_segment in     │
+│                             │                │          │              │                              │               │ fs/f2fs/segment.c                                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2019-19814                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2020-12362 │          │ will_not_fix │                              │               │ kernel: Integer overflow in Intel(R) Graphics Drivers        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2020-12362                   │
+│                             ├────────────────┤          ├──────────────┤                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-3847  │          │ affected     │                              │               │ kernel: low-privileged user privileges escalation            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-3847                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-3864  │          │              │                              │               │ kernel: descendant's dumpable setting with certain SUID      │
+│                             │                │          │              │                              │               │ binaries                                                     │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-3864                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-39686 │          │              │                              │               │ kernel: race condition in the Android binder driver could    │
+│                             │                │          │              │                              │               │ lead to incorrect...                                         │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-39686                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-4204  │          │              │                              │               │ kernel: improper input validation may lead to privilege      │
+│                             │                │          │              │                              │               │ escalation                                                   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-4204                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-47014 │          │              │                              │               │ kernel: net/sched: act_ct: fix wild memory access when       │
+│                             │                │          │              │                              │               │ clearing fragments                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-47014                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-47094 │          │              │                              │               │ kernel: KVM: x86/mmu: Don&#39;t advance iterator after       │
+│                             │                │          │              │                              │               │ restart due to yielding                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-47094                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-47198 │          │              │                              │               │ kernel: scsi: lpfc: Fix use-after-free in lpfc_unreg_rpi()   │
+│                             │                │          │              │                              │               │ routine                                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-47198                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-47366 │          │              │                              │               │ kernel: afs: Fix corruption in reads at fpos 2G-4G from an   │
+│                             │                │          │              │                              │               │ OpenAFS...                                                   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-47366                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-47467 │          │              │                              │               │ kernel: kunit: fix reference count leak in kfree_at_end      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-47467                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-0500  │          │              │                              │               │ kernel: Linux ebpf logic vulnerability leads to critical     │
+│                             │                │          │              │                              │               │ memory read and write...                                     │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-0500                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-3566  │          │              │                              │               │ kernel: data races around icsk->icsk_af_ops in               │
+│                             │                │          │              │                              │               │ do_ipv6_setsockopt                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-3566                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-48626 │          │              │                              │               │ kernel: moxart: fix potential use-after-free on remove path  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-48626                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-48670 │          │              │                              │               │ kernel: peci: cpu: Fix use-after-free in adev_release()      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-48670                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-48674 │          │              │                              │               │ kernel: erofs: fix pcluster use-after-free on UP platforms   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-48674                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52452 │          │              │                              │               │ kernel: bpf: Fix accesses to uninit stack slots              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52452                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52480 │          │              │                              │               │ kernel: ksmbd: fix race condition between session lookup and │
+│                             │                │          │              │                              │               │ expire                                                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52480                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52588 │          │              │                              │               │ kernel: f2fs: fix to tag gcing flag on page during block     │
+│                             │                │          │              │                              │               │ migration...                                                 │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52588                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52590 │          │              │                              │               │ kernel: ocfs2: Avoid touching renamed directory if parent    │
+│                             │                │          │              │                              │               │ does not change                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52590                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52591 │          │              │                              │               │ kernel: reiserfs: Avoid touching renamed directory if parent │
+│                             │                │          │              │                              │               │ does not change                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52591                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52596 │          │              │                              │               │ kernel: sysctl: Fix out of bounds access for empty sysctl    │
+│                             │                │          │              │                              │               │ registers                                                    │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52596                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52640 │          │              │                              │               │ kernel: fs/ntfs3: Fix oob in ntfs_listxattr                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52640                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52751 │          │              │                              │               │ kernel: smb: client: fix use-after-free in                   │
+│                             │                │          │              │                              │               │ smb2_query_info_compound()                                   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52751                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52752 │          │              │                              │               │ kernel: smb: client: fix use-after-free bug in               │
+│                             │                │          │              │                              │               │ cifs_debug_data_proc_show()                                  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52752                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52755 │          │              │                              │               │ kernel: ksmbd: fix slab out of bounds write in               │
+│                             │                │          │              │                              │               │ smb_inherit_dacl()                                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52755                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52760 │          │              │                              │               │ kernel: gfs2: Fix slab-use-after-free in gfs2_qd_dealloc     │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52760                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-52827 │          │              │                              │               │ kernel: wifi: ath12k: fix possible out-of-bound read in      │
+│                             │                │          │              │                              │               │ ath12k_htt_pull_ppdu_stats()                                 │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-52827                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-21803 │          │              │                              │               │ kernel: bluetooth: use-after-free vulnerability in           │
+│                             │                │          │              │                              │               │ af_bluetooth.c                                               │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-21803                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-23307 │          │              │                              │               │ kernel: Integer Overflow in raid5_cache_count                │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-23307                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-25742 │          │              │                              │               │ hw: amd: Instruction raise #VC exception at exit             │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-25742                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-25743 │          │              │                              │               │ hw: amd: Instruction raise #VC exception at exit             │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-25743                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-26589 │          │              │                              │               │ kernel: bpf: Reject variable offset alu on PTR_TO_FLOW_KEYS  │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-26589                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-26668 │          │              │                              │               │ kernel: netfilter: nft_limit: reject configurations that     │
+│                             │                │          │              │                              │               │ cause integer overflow                                       │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-26668                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-26669 │          │              │                              │               │ kernel: net/sched: flower: Fix chain template offload        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-26669                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-26913 │          │              │                              │               │ kernel: drm/amd/display: Fix dcn35 8k30 Underflow/Corruption │
+│                             │                │          │              │                              │               │ Issue                                                        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-26913                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-26929 │          │              │                              │               │ kernel: scsi: qla2xxx: Fix double free of fcport             │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-26929                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-26930 │          │              │                              │               │ kernel: scsi: qla2xxx: Fix double free of the ha-&gt;vp_map  │
+│                             │                │          │              │                              │               │ pointer                                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-26930                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-26952 │          │              │                              │               │ kernel: ksmbd: fix potencial out-of-bounds when buffer       │
+│                             │                │          │              │                              │               │ offset is invalid                                            │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-26952                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-27397 │          │              │                              │               │ kernel: netfilter: nf_tables: use timestamp to check for set │
+│                             │                │          │              │                              │               │ element timeout                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-27397                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-36013 │          │              │                              │               │ kernel: Bluetooth: L2CAP: Fix slab-use-after-free in         │
+│                             │                │          │              │                              │               │ l2cap_connect()                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-36013                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-38581 │          │              │                              │               │ kernel: drm/amdgpu/mes: fix use-after-free issue             │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-38581                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-38667 │          │              │                              │               │ kernel: riscv: prevent pt_regs corruption for secondary idle │
+│                             │                │          │              │                              │               │ threads                                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-38667                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2024-39479 │          │              │                              │               │ kernel: drm/i915/hwmon: Get rid of devm                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2024-39479                   │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ logsave                     │ CVE-2022-1304  │          │              │ 1.46.2-2                     │               │ e2fsprogs: out-of-bounds read/write via crafted filesystem   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-1304                    │
+├─────────────────────────────┼────────────────┤          │              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ perl                        │ CVE-2020-16156 │          │              │ 5.32.1-4+deb11u3             │               │ perl-CPAN: Bypass of verification of signatures in CHECKSUMS │
+│                             │                │          │              │                              │               │ files                                                        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2020-16156                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-31484 │          │              │                              │               │ perl: CPAN.pm does not verify TLS certificates when          │
+│                             │                │          │              │                              │               │ downloading distributions over HTTPS...                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-31484                   │
+├─────────────────────────────┼────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ perl-base                   │ CVE-2020-16156 │          │              │                              │               │ perl-CPAN: Bypass of verification of signatures in CHECKSUMS │
+│                             │                │          │              │                              │               │ files                                                        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2020-16156                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-31484 │          │              │                              │               │ perl: CPAN.pm does not verify TLS certificates when          │
+│                             │                │          │              │                              │               │ downloading distributions over HTTPS...                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-31484                   │
+├─────────────────────────────┼────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ perl-modules-5.32           │ CVE-2020-16156 │          │              │                              │               │ perl-CPAN: Bypass of verification of signatures in CHECKSUMS │
+│                             │                │          │              │                              │               │ files                                                        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2020-16156                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-31484 │          │              │                              │               │ perl: CPAN.pm does not verify TLS certificates when          │
+│                             │                │          │              │                              │               │ downloading distributions over HTTPS...                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-31484                   │
+├─────────────────────────────┼────────────────┼──────────┤              ├──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ python3.9                   │ CVE-2021-29921 │ CRITICAL │              │ 3.9.2-1                      │               │ python-ipaddress: Improper input validation of octal strings │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-29921                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2015-20107 │ HIGH     │              │                              │               │ python: mailcap: findmatch() function does not sanitize the  │
+│                             │                │          │              │                              │               │ second argument                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2015-20107                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2020-10735 │          │              │                              │               │ python: int() type in PyLong_FromString() does not limit     │
+│                             │                │          │              │                              │               │ amount of digits converting...                               │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2020-10735                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-3737  │          │              │                              │               │ python: urllib: HTTP client possible infinite loop on a 100  │
+│                             │                │          │              │                              │               │ Continue response...                                         │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-3737                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-0391  │          │              │                              │               │ python: urllib.parse does not sanitize URLs containing ASCII │
+│                             │                │          │              │                              │               │ newline and tabs                                             │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-0391                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-42919 │          │              │                              │               │ python: local privilege escalation via the multiprocessing   │
+│                             │                │          │              │                              │               │ forkserver start method                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-42919                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-45061 │          │              │                              │               │ python: CPU denial of service via inefficient IDNA decoder   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-45061                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-24329 │          │              │                              │               │ python: urllib.parse url blocklisting bypass                 │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-24329                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-6597  │          │              │                              │               │ python: Path traversal on tempfile.TemporaryDirectory        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-6597                    │
+├─────────────────────────────┼────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│ python3.9-minimal           │ CVE-2021-29921 │ CRITICAL │              │                              │               │ python-ipaddress: Improper input validation of octal strings │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-29921                   │
+│                             ├────────────────┼──────────┤              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2015-20107 │ HIGH     │              │                              │               │ python: mailcap: findmatch() function does not sanitize the  │
+│                             │                │          │              │                              │               │ second argument                                              │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2015-20107                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2020-10735 │          │              │                              │               │ python: int() type in PyLong_FromString() does not limit     │
+│                             │                │          │              │                              │               │ amount of digits converting...                               │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2020-10735                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2021-3737  │          │              │                              │               │ python: urllib: HTTP client possible infinite loop on a 100  │
+│                             │                │          │              │                              │               │ Continue response...                                         │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2021-3737                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-0391  │          │              │                              │               │ python: urllib.parse does not sanitize URLs containing ASCII │
+│                             │                │          │              │                              │               │ newline and tabs                                             │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-0391                    │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-42919 │          │              │                              │               │ python: local privilege escalation via the multiprocessing   │
+│                             │                │          │              │                              │               │ forkserver start method                                      │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-42919                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2022-45061 │          │              │                              │               │ python: CPU denial of service via inefficient IDNA decoder   │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2022-45061                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-24329 │          │              │                              │               │ python: urllib.parse url blocklisting bypass                 │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-24329                   │
+│                             ├────────────────┤          │              │                              ├───────────────┼──────────────────────────────────────────────────────────────┤
+│                             │ CVE-2023-6597  │          │              │                              │               │ python: Path traversal on tempfile.TemporaryDirectory        │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-6597                    │
+├─────────────────────────────┼────────────────┼──────────┼──────────────┼──────────────────────────────┼───────────────┼──────────────────────────────────────────────────────────────┤
+│ zlib1g                      │ CVE-2023-45853 │ CRITICAL │ will_not_fix │ 1:1.2.11.dfsg-2+deb11u2      │               │ zlib: integer overflow and resultant heap-based buffer       │
+│                             │                │          │              │                              │               │ overflow in zipOpenNewFileInZip4_6                           │
+│                             │                │          │              │                              │               │ https://avd.aquasec.com/nvd/cve-2023-45853                   │
+├─────────────────────────────┤                │          │              │                              ├───────────────┤                                                              │
+│ zlib1g-dev                  │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+│                             │                │          │              │                              │               │                                                              │
+└─────────────────────────────┴────────────────┴──────────┴──────────────┴──────────────────────────────┴───────────────┴──────────────────────────────────────────────────────────────┘
