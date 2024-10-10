@@ -21,7 +21,7 @@ fastapi==0.110.0
 firebase-admin==4.4.0
 gcloud-aio-storage==9.2.0
 google-cloud-logging==3.8.0
-gunicorn==20.1.0
+gunicorn==22.0.0
 httpx==0.24.1  # required by zeep
 itsdangerous==1.1.0
 Jinja2==3.1.3
