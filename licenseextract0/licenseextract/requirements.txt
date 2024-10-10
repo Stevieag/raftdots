@@ -24,7 +24,7 @@ google-cloud-logging==3.8.0
 gunicorn==20.1.0
 httpx==0.24.1  # required by zeep
 itsdangerous==1.1.0
-Jinja2==3.1.3
+Jinja2==3.1.4
 jsonpath-ng==1.5.3
 joblib==1.2.0
 lockfile==0.12.2
