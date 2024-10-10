@@ -1,0 +1,925 @@
+
+Package: aiodns
+{
+  "Name": "aiodns",
+  "Version": "2.0.0",
+  "Author": "Sa\u00fal Ibarra Corretg\u00e9",
+  "Author_Email": "s@saghul.net",
+  "Licence": "",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/aiodns/",
+  "Project_Url": "https://pypi.org/project/aiodns/"
+}
+
+Package: aiofiles
+{
+  "Name": "aiofiles",
+  "Version": "0.8.0",
+  "Author": "Tin Tvrtkovic",
+  "Author_Email": "tinchester@gmail.com",
+  "Licence": "Apache-2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/aiofiles/",
+  "Project_Url": "https://pypi.org/project/aiofiles/"
+}
+
+Package: aioftp
+{
+  "Name": "aioftp",
+  "Version": "0.22.3",
+  "Author": "yieyu, rsichnyi, jw4js, oleksandr-kuzmenko, ndhansen, modelmat, greut, PonyPC, jacobtomlinson, bachya, CrafterKolyan, jkr78",
+  "Author_Email": "pohmelie <multisosnooley@gmail.com>, asvetlov <andrew.svetlov@gmail.com>, decaz <decaz89@gmail.com>, janneronkko <janne.ronkko@iki.fi>, thirtyseven <ted@shlashdot.org>, ported-pw <contact@ported.pw>, Olegt0rr <t0rr@mail.ru>, michalc <michal@charemza.name>, ch3pjw <paul@concertdaw.co.uk>, puddly <puddly3@gmail.com>, AMDmi3 <amdmi3@amdmi3.ru>, webknjaz <webknjaz+github/profile@redhat.com>",
+  "Licence": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/  TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION  1. Definitions.  \"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.  \"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.  \"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.  \"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.  \"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.  \"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.  \"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).  \"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.  \"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"  \"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.  2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.  3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.  4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:  (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and  (b) You must cause any modified files to carry prominent notices stating that You changed the files; and  (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and  (d) If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.  You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.  5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.  6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.  7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.  8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.  9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.  END OF TERMS AND CONDITIONS  APPENDIX: How to apply the Apache License to your work.  To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets \"[]\" replaced with your own identifying information. (Don't include the brackets!)  The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same \"printed page\" as the copyright notice for easier identification within third-party archives.  Copyright [yyyy] [name of copyright owner]  Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. ",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/aioftp/",
+  "Project_Url": "https://pypi.org/project/aioftp/"
+}
+
+Package: aiohttp
+{
+  "Name": "aiohttp",
+  "Version": "3.8.0",
+  "Author": "",
+  "Author_Email": "",
+  "Licence": "Apache 2",
+  "Maintainer": "aiohttp team <team@aiohttp.org>",
+  "Maintainer_Email": "team@aiohttp.org",
+  "Package_Url": "https://pypi.org/project/aiohttp/",
+  "Project_Url": "https://pypi.org/project/aiohttp/"
+}
+
+Package: aiohttp_retry
+{
+  "Name": "aiohttp-retry",
+  "Version": "2.8.3",
+  "Author": "Dmitry Inyutin",
+  "Author_Email": "inyutin.da@gmail.com",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/aiohttp-retry/",
+  "Project_Url": "https://pypi.org/project/aiohttp-retry/"
+}
+
+Package: aiosmtplib
+{
+  "Name": "aiosmtplib",
+  "Version": "2.0.1",
+  "Author": "Cole Maclean",
+  "Author_Email": "hi@colemaclean.dev",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/aiosmtplib/",
+  "Project_Url": "https://pypi.org/project/aiosmtplib/"
+}
+
+Package: alembic
+{
+  "Name": "alembic",
+  "Version": "1.10.4",
+  "Author": "Mike Bayer",
+  "Author_Email": "mike_mp@zzzcomputing.com",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/alembic/",
+  "Project_Url": "https://pypi.org/project/alembic/"
+}
+
+Package: amqp
+{
+  "Name": "amqp",
+  "Version": "5.1.1",
+  "Author": "Barry Pederson",
+  "Author_Email": "pyamqp@celeryproject.org",
+  "Licence": "BSD",
+  "Maintainer": "Asif Saif Uddin, Matus Valo",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/amqp/",
+  "Project_Url": "https://pypi.org/project/amqp/"
+}
+
+Package: AMQPStorm
+{
+  "Name": "AMQPStorm",
+  "Version": "2.10.3",
+  "Author": "Erik Olof Gunnar Andersson",
+  "Author_Email": "me@eandersson.net",
+  "Licence": "MIT License",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/AMQPStorm/",
+  "Project_Url": "https://pypi.org/project/AMQPStorm/"
+}
+
+Package: AMQPStorm-Pool
+{
+  "Name": "AMQPStorm-Pool",
+  "Version": "1.0.1",
+  "Author": "Erik Olof Gunnar Andersson",
+  "Author_Email": "me@eandersson.net",
+  "Licence": "BSD",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/AMQPStorm-Pool/",
+  "Project_Url": "https://pypi.org/project/AMQPStorm-Pool/"
+}
+
+Package: apache-libcloud
+{
+  "Name": "apache-libcloud",
+  "Version": "3.2.0",
+  "Author": "Apache Software Foundation",
+  "Author_Email": "dev@libcloud.apache.org",
+  "Licence": "Apache License (2.0)",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/apache-libcloud/",
+  "Project_Url": "https://pypi.org/project/apache-libcloud/"
+}
+
+Package: arrest[openapi]
+"Error: 404"
+
+Package: argon2-cffi
+{
+  "Name": "argon2-cffi",
+  "Version": "20.1.0",
+  "Author": "Hynek Schlawack",
+  "Author_Email": "hs@ox.cx",
+  "Licence": "MIT",
+  "Maintainer": "Hynek Schlawack",
+  "Maintainer_Email": "hs@ox.cx",
+  "Package_Url": "https://pypi.org/project/argon2-cffi/",
+  "Project_Url": "https://pypi.org/project/argon2-cffi/"
+}
+
+Package: asyncpg
+{
+  "Name": "asyncpg",
+  "Version": "0.27.0",
+  "Author": "MagicStack Inc",
+  "Author_Email": "hello@magic.io",
+  "Licence": "Apache License, Version 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/asyncpg/",
+  "Project_Url": "https://pypi.org/project/asyncpg/"
+}
+
+Package: asyncssh
+{
+  "Name": "asyncssh",
+  "Version": "2.11.0",
+  "Author": "Ron Frederick",
+  "Author_Email": "ronf@timeheart.net",
+  "Licence": "Eclipse Public License v2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/asyncssh/",
+  "Project_Url": "https://pypi.org/project/asyncssh/"
+}
+
+Package: backoff
+{
+  "Name": "backoff",
+  "Version": "2.2.1",
+  "Author": "Bob Green",
+  "Author_Email": "rgreen@aquent.com",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/backoff/",
+  "Project_Url": "https://pypi.org/project/backoff/"
+}
+
+Package: cryptography
+{
+  "Name": "cryptography",
+  "Version": "3.4.6",
+  "Author": "The Python Cryptographic Authority and individual contributors",
+  "Author_Email": "cryptography-dev@python.org",
+  "Licence": "BSD or Apache License, Version 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/cryptography/",
+  "Project_Url": "https://pypi.org/project/cryptography/"
+}
+
+Package: deprecation
+{
+  "Name": "deprecation",
+  "Version": "2.1.0",
+  "Author": "Brian Curtin",
+  "Author_Email": "brian@python.org",
+  "Licence": "Apache 2",
+  "Maintainer": "Brian Curtin",
+  "Maintainer_Email": "brian@python.org",
+  "Package_Url": "https://pypi.org/project/deprecation/",
+  "Project_Url": "https://pypi.org/project/deprecation/"
+}
+
+Package: databases
+{
+  "Name": "databases",
+  "Version": "0.7.0",
+  "Author": "Tom Christie",
+  "Author_Email": "tom@tomchristie.com",
+  "Licence": "BSD",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/databases/",
+  "Project_Url": "https://pypi.org/project/databases/"
+}
+
+Package: fastapi
+{
+  "Name": "fastapi",
+  "Version": "0.110.0",
+  "Author": "",
+  "Author_Email": "Sebasti\u00e1n Ram\u00edrez <tiangolo@gmail.com>",
+  "Licence": "",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/fastapi/",
+  "Project_Url": "https://pypi.org/project/fastapi/"
+}
+
+Package: firebase-admin
+{
+  "Name": "firebase-admin",
+  "Version": "4.4.0",
+  "Author": "Firebase",
+  "Author_Email": "",
+  "Licence": "Apache License 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/firebase-admin/",
+  "Project_Url": "https://pypi.org/project/firebase-admin/"
+}
+
+Package: gcloud-aio-storage
+{
+  "Name": "gcloud-aio-storage",
+  "Version": "9.2.0",
+  "Author": "Vi Engineering",
+  "Author_Email": "voiceai-eng@dialpad.com",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/gcloud-aio-storage/",
+  "Project_Url": "https://pypi.org/project/gcloud-aio-storage/"
+}
+
+Package: google-cloud-logging
+{
+  "Name": "google-cloud-logging",
+  "Version": "3.8.0",
+  "Author": "Google LLC",
+  "Author_Email": "googleapis-packages@google.com",
+  "Licence": "Apache 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/google-cloud-logging/",
+  "Project_Url": "https://pypi.org/project/google-cloud-logging/"
+}
+
+Package: gunicorn
+{
+  "Name": "gunicorn",
+  "Version": "20.1.0",
+  "Author": "Benoit Chesneau",
+  "Author_Email": "benoitc@e-engura.com",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/gunicorn/",
+  "Project_Url": "https://pypi.org/project/gunicorn/"
+}
+
+Package: httpx
+{
+  "Name": "httpx",
+  "Version": "0.24.1",
+  "Author": "",
+  "Author_Email": "Tom Christie <tom@tomchristie.com>",
+  "Licence": "",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/httpx/",
+  "Project_Url": "https://pypi.org/project/httpx/"
+}
+
+Package: itsdangerous
+{
+  "Name": "itsdangerous",
+  "Version": "1.1.0",
+  "Author": "Armin Ronacher",
+  "Author_Email": "armin.ronacher@active-4.com",
+  "Licence": "BSD",
+  "Maintainer": "Pallets Team",
+  "Maintainer_Email": "contact@palletsprojects.com",
+  "Package_Url": "https://pypi.org/project/itsdangerous/",
+  "Project_Url": "https://pypi.org/project/itsdangerous/"
+}
+
+Package: Jinja2
+{
+  "Name": "Jinja2",
+  "Version": "3.1.3",
+  "Author": "",
+  "Author_Email": "",
+  "Licence": "BSD-3-Clause",
+  "Maintainer": "Pallets",
+  "Maintainer_Email": "contact@palletsprojects.com",
+  "Package_Url": "https://pypi.org/project/Jinja2/",
+  "Project_Url": "https://pypi.org/project/Jinja2/"
+}
+
+Package: jsonpath-ng
+{
+  "Name": "jsonpath-ng",
+  "Version": "1.5.3",
+  "Author": "Tomas Aparicio",
+  "Author_Email": "tomas@aparicio.me",
+  "Licence": "Apache 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/jsonpath-ng/",
+  "Project_Url": "https://pypi.org/project/jsonpath-ng/"
+}
+
+Package: joblib
+{
+  "Name": "joblib",
+  "Version": "1.2.0",
+  "Author": "Gael Varoquaux",
+  "Author_Email": "gael.varoquaux@normalesup.org",
+  "Licence": "BSD",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/joblib/",
+  "Project_Url": "https://pypi.org/project/joblib/"
+}
+
+Package: lockfile
+{
+  "Name": "lockfile",
+  "Version": "0.12.2",
+  "Author": "OpenStack",
+  "Author_Email": "openstack-dev@lists.openstack.org",
+  "Licence": "",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/lockfile/",
+  "Project_Url": "https://pypi.org/project/lockfile/"
+}
+
+Package: lxml
+{
+  "Name": "lxml",
+  "Version": "4.9.1",
+  "Author": "lxml dev team",
+  "Author_Email": "lxml-dev@lxml.de",
+  "Licence": "BSD",
+  "Maintainer": "lxml dev team",
+  "Maintainer_Email": "lxml-dev@lxml.de",
+  "Package_Url": "https://pypi.org/project/lxml/",
+  "Project_Url": "https://pypi.org/project/lxml/"
+}
+
+Package: numpy
+{
+  "Name": "numpy",
+  "Version": "1.22.2",
+  "Author": "Travis E. Oliphant et al.",
+  "Author_Email": "",
+  "Licence": "BSD",
+  "Maintainer": "NumPy Developers",
+  "Maintainer_Email": "numpy-discussion@python.org",
+  "Package_Url": "https://pypi.org/project/numpy/",
+  "Project_Url": "https://pypi.org/project/numpy/"
+}
+
+Package: pandas
+{
+  "Name": "pandas",
+  "Version": "1.4.2",
+  "Author": "The Pandas Development Team",
+  "Author_Email": "pandas-dev@python.org",
+  "Licence": "BSD-3-Clause",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/pandas/",
+  "Project_Url": "https://pypi.org/project/pandas/"
+}
+
+Package: protobuf
+{
+  "Name": "protobuf",
+  "Version": "3.20.3",
+  "Author": "",
+  "Author_Email": "",
+  "Licence": "BSD-3-Clause",
+  "Maintainer": "protobuf@googlegroups.com",
+  "Maintainer_Email": "protobuf@googlegroups.com",
+  "Package_Url": "https://pypi.org/project/protobuf/",
+  "Project_Url": "https://pypi.org/project/protobuf/"
+}
+
+Package: psycopg2
+{
+  "Name": "psycopg2",
+  "Version": "2.9.5",
+  "Author": "Federico Di Gregorio",
+  "Author_Email": "fog@initd.org",
+  "Licence": "LGPL with exceptions",
+  "Maintainer": "Daniele Varrazzo",
+  "Maintainer_Email": "daniele.varrazzo@gmail.com",
+  "Package_Url": "https://pypi.org/project/psycopg2/",
+  "Project_Url": "https://pypi.org/project/psycopg2/"
+}
+
+Package: PyJWT
+{
+  "Name": "PyJWT",
+  "Version": "2.4.0",
+  "Author": "Jose Padilla",
+  "Author_Email": "hello@jpadilla.com",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/PyJWT/",
+  "Project_Url": "https://pypi.org/project/PyJWT/"
+}
+
+Package: python-multipart
+{
+  "Name": "python-multipart",
+  "Version": "0.0.5",
+  "Author": "Andrew Dunham",
+  "Author_Email": "",
+  "Licence": "Apache",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/python-multipart/",
+  "Project_Url": "https://pypi.org/project/python-multipart/"
+}
+
+Package: PyYAML
+{
+  "Name": "PyYAML",
+  "Version": "6.0.1",
+  "Author": "Kirill Simonov",
+  "Author_Email": "xi@resolvent.net",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/PyYAML/",
+  "Project_Url": "https://pypi.org/project/PyYAML/"
+}
+
+Package: redis
+{
+  "Name": "redis",
+  "Version": "4.5.1",
+  "Author": "Redis Inc.",
+  "Author_Email": "oss@redis.com",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/redis/",
+  "Project_Url": "https://pypi.org/project/redis/"
+}
+
+Package: remote-pdb
+{
+  "Name": "remote-pdb",
+  "Version": "2.1.0",
+  "Author": "Ionel Cristian M\u0103rie\u0219",
+  "Author_Email": "contact@ionelmc.ro",
+  "Licence": "BSD-2-Clause",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/remote-pdb/",
+  "Project_Url": "https://pypi.org/project/remote-pdb/"
+}
+
+Package: requests
+{
+  "Name": "requests",
+  "Version": "2.28.1",
+  "Author": "Kenneth Reitz",
+  "Author_Email": "me@kennethreitz.org",
+  "Licence": "Apache 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/requests/",
+  "Project_Url": "https://pypi.org/project/requests/"
+}
+
+Package: sentry-sdk[fastapi]
+"Error: 404"
+
+Package: starlette-context
+{
+  "Name": "starlette-context",
+  "Version": "0.3.3",
+  "Author": "Tomasz Wojcik",
+  "Author_Email": "",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/starlette-context/",
+  "Project_Url": "https://pypi.org/project/starlette-context/"
+}
+
+Package: SQLAlchemy
+{
+  "Name": "SQLAlchemy",
+  "Version": "1.4.47",
+  "Author": "Mike Bayer",
+  "Author_Email": "mike_mp@zzzcomputing.com",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/SQLAlchemy/",
+  "Project_Url": "https://pypi.org/project/SQLAlchemy/"
+}
+
+Package: uvicorn[standard]
+"Error: 404"
+
+Package: anyascii
+{
+  "Name": "anyascii",
+  "Version": "0.3.2",
+  "Author": null,
+  "Author_Email": "Hunter WB <hunter@hunterwb.com>",
+  "Licence": null,
+  "Maintainer": null,
+  "Maintainer_Email": null,
+  "Package_Url": "https://pypi.org/project/anyascii/",
+  "Project_Url": "https://pypi.org/project/anyascii/"
+}
+
+Package: Wand
+{
+  "Name": "Wand",
+  "Version": "0.6.3",
+  "Author": "Hong Minhee",
+  "Author_Email": "hongminhee@member.fsf.org",
+  "Licence": "MIT License",
+  "Maintainer": "E. McConville",
+  "Maintainer_Email": "emcconville@emcconville.com",
+  "Package_Url": "https://pypi.org/project/Wand/",
+  "Project_Url": "https://pypi.org/project/Wand/"
+}
+
+Package: websockets
+{
+  "Name": "websockets",
+  "Version": "10.4",
+  "Author": "Aymeric Augustin",
+  "Author_Email": "aymeric.augustin@m4x.org",
+  "Licence": "BSD",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/websockets/",
+  "Project_Url": "https://pypi.org/project/websockets/"
+}
+
+Package: xlrd
+{
+  "Name": "xlrd",
+  "Version": "2.0.1",
+  "Author": "Chris Withers",
+  "Author_Email": "chris@withers.org",
+  "Licence": "BSD",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/xlrd/",
+  "Project_Url": "https://pypi.org/project/xlrd/"
+}
+
+Package: openpyxl
+{
+  "Name": "openpyxl",
+  "Version": "3.0.9",
+  "Author": "See AUTHORS",
+  "Author_Email": "charlie.clark@clark-consulting.eu",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/openpyxl/",
+  "Project_Url": "https://pypi.org/project/openpyxl/"
+}
+
+Package: XlsxWriter
+{
+  "Name": "XlsxWriter",
+  "Version": "1.3.7",
+  "Author": "John McNamara",
+  "Author_Email": "jmcnamara@cpan.org",
+  "Licence": "BSD",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/XlsxWriter/",
+  "Project_Url": "https://pypi.org/project/XlsxWriter/"
+}
+
+Package: xmltodict
+{
+  "Name": "xmltodict",
+  "Version": "0.12.0",
+  "Author": "Martin Blech",
+  "Author_Email": "martinblech@gmail.com",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/xmltodict/",
+  "Project_Url": "https://pypi.org/project/xmltodict/"
+}
+
+Package: celery[librabbitmq]
+"Error: 404"
+
+Package: prometheus-fastapi-instrumentator
+{
+  "Name": "prometheus-fastapi-instrumentator",
+  "Version": "5.10.0",
+  "Author": "Tim Schwenke",
+  "Author_Email": "tim@trallnag.com",
+  "Licence": "ISC",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/prometheus-fastapi-instrumentator/",
+  "Project_Url": "https://pypi.org/project/prometheus-fastapi-instrumentator/"
+}
+
+Package: imgkit
+{
+  "Name": "imgkit",
+  "Version": "1.2.2",
+  "Author": "Jarrekk",
+  "Author_Email": "me@jarrekk.com",
+  "Licence": "",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/imgkit/",
+  "Project_Url": "https://pypi.org/project/imgkit/"
+}
+
+Package: UnleashClient
+{
+  "Name": "UnleashClient",
+  "Version": "5.11.2",
+  "Author": "",
+  "Author_Email": "Ivan Lee <ivanklee86@gmail.com>",
+  "Licence": "",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/UnleashClient/",
+  "Project_Url": "https://pypi.org/project/UnleashClient/"
+}
+
+Package: xmlschema
+{
+  "Name": "xmlschema",
+  "Version": "1.11.2",
+  "Author": "Davide Brunato",
+  "Author_Email": "brunato@sissa.it",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/xmlschema/",
+  "Project_Url": "https://pypi.org/project/xmlschema/"
+}
+
+Package: zeep
+{
+  "Name": "zeep",
+  "Version": "4.1.0",
+  "Author": "Michael van Tellingen",
+  "Author_Email": "michaelvantellingen@gmail.com",
+  "Licence": "MIT",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/zeep/",
+  "Project_Url": "https://pypi.org/project/zeep/"
+}
+
+Package: beanie
+{
+  "Name": "beanie",
+  "Version": "1.25.0",
+  "Author": null,
+  "Author_Email": "Roman Right <roman-right@protonmail.com>",
+  "Licence": null,
+  "Maintainer": null,
+  "Maintainer_Email": null,
+  "Package_Url": "https://pypi.org/project/beanie/",
+  "Project_Url": "https://pypi.org/project/beanie/"
+}
+
+Package: lxml-stubs
+{
+  "Name": "lxml-stubs",
+  "Version": "0.4.0",
+  "Author": "",
+  "Author_Email": "",
+  "Licence": "",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/lxml-stubs/",
+  "Project_Url": "https://pypi.org/project/lxml-stubs/"
+}
+
+Package: Authlib
+{
+  "Name": "Authlib",
+  "Version": "1.2.0",
+  "Author": "Hsiaoming Yang",
+  "Author_Email": "me@lepture.com",
+  "Licence": "BSD 3-Clause License",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/Authlib/",
+  "Project_Url": "https://pypi.org/project/Authlib/"
+}
+
+Package: openai
+{
+  "Name": "openai",
+  "Version": "0.27.2",
+  "Author": "OpenAI",
+  "Author_Email": "support@openai.com",
+  "Licence": "",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/openai/",
+  "Project_Url": "https://pypi.org/project/openai/"
+}
+
+Package: sysfs
+{
+  "Name": "sysfs",
+  "Version": "0.1.0",
+  "Author": "Gregory C. Oakes",
+  "Author_Email": "gregoryoakes@fastmail.com",
+  "Licence": "",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/sysfs/",
+  "Project_Url": "https://pypi.org/project/sysfs/"
+}
+
+Package: orjson
+{
+  "Name": "orjson",
+  "Version": "3.9.10",
+  "Author": "ijl <ijl@mailbox.org>",
+  "Author_Email": "ijl <ijl@mailbox.org>",
+  "Licence": "Apache-2.0 OR MIT",
+  "Maintainer": null,
+  "Maintainer_Email": null,
+  "Package_Url": "https://pypi.org/project/orjson/",
+  "Project_Url": "https://pypi.org/project/orjson/"
+}
+
+Package: aiokafka
+{
+  "Name": "aiokafka",
+  "Version": "0.8.1",
+  "Author": "Andrew Svetlov",
+  "Author_Email": "andrew.svetlov@gmail.com",
+  "Licence": "Apache 2",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/aiokafka/",
+  "Project_Url": "https://pypi.org/project/aiokafka/"
+}
+
+Package: ddtrace
+{
+  "Name": "ddtrace",
+  "Version": "2.1.5",
+  "Author": "Datadog, Inc.",
+  "Author_Email": "\"Datadog, Inc.\" <dev@datadoghq.com>",
+  "Licence": "BSD",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/ddtrace/",
+  "Project_Url": "https://pypi.org/project/ddtrace/"
+}
+
+Package: pymongo
+{
+  "Name": "pymongo",
+  "Version": "4.4.1",
+  "Author": "The MongoDB Python Team",
+  "Author_Email": "",
+  "Licence": "Apache License, Version 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/pymongo/",
+  "Project_Url": "https://pypi.org/project/pymongo/"
+}
+
+Package: htmltextconvert
+{
+  "Name": "htmltextconvert",
+  "Version": "0.1.2",
+  "Author": "Oliver Cope",
+  "Author_Email": "oliver@redgecko.org",
+  "Licence": "Apache License 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/htmltextconvert/",
+  "Project_Url": "https://pypi.org/project/htmltextconvert/"
+}
+
+Package: grpcio
+{
+  "Name": "grpcio",
+  "Version": "1.59.2",
+  "Author": "The gRPC Authors",
+  "Author_Email": "grpc-io@googlegroups.com",
+  "Licence": "Apache License 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/grpcio/",
+  "Project_Url": "https://pypi.org/project/grpcio/"
+}
+
+Package: grpcio-status
+{
+  "Name": "grpcio-status",
+  "Version": "1.48.2",
+  "Author": "The gRPC Authors",
+  "Author_Email": "grpc-io@googlegroups.com",
+  "Licence": "Apache License 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/grpcio-status/",
+  "Project_Url": "https://pypi.org/project/grpcio-status/"
+}
+
+Package: grpcio-tools
+{
+  "Name": "grpcio-tools",
+  "Version": "1.48.2",
+  "Author": "The gRPC Authors",
+  "Author_Email": "grpc-io@googlegroups.com",
+  "Licence": "Apache License 2.0",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/grpcio-tools/",
+  "Project_Url": "https://pypi.org/project/grpcio-tools/"
+}
+
+Package: betterproto[compiler]
+"Error: 404"
+
+Package: pydantic
+{
+  "Name": "pydantic",
+  "Version": "2.6.4",
+  "Author": "",
+  "Author_Email": "Samuel Colvin <s@muelcolvin.com>, Eric Jolibois <em.jolibois@gmail.com>, Hasan Ramezani <hasan.r67@gmail.com>, Adrian Garcia Badaracco <1755071+adriangb@users.noreply.github.com>, Terrence Dorsey <terry@pydantic.dev>, David Montague <david@pydantic.dev>, Serge Matveenko <lig@countzero.co>, Marcelo Trylesinski <marcelotryle@gmail.com>, Sydney Runkle <sydneymarierunkle@gmail.com>, David Hewitt <mail@davidhewitt.io>",
+  "Licence": "",
+  "Maintainer": "",
+  "Maintainer_Email": "",
+  "Package_Url": "https://pypi.org/project/pydantic/",
+  "Project_Url": "https://pypi.org/project/pydantic/"
+}
+
+Package: pypdf
+{
+  "Name": "pypdf",
+  "Version": "4.2.0",
+  "Author": null,
+  "Author_Email": "Mathieu Fenniak <biziqe@mathieu.fenniak.net>",
+  "Licence": null,
+  "Maintainer": null,
+  "Maintainer_Email": "Martin Thoma <info@martin-thoma.de>",
+  "Package_Url": "https://pypi.org/project/pypdf/",
+  "Project_Url": "https://pypi.org/project/pypdf/"
+}
+
+Package: pillow
+{
+  "Name": "pillow",
+  "Version": "10.4.0",
+  "Author": null,
+  "Author_Email": "\"Jeffrey A. Clark\" <aclark@aclark.net>",
+  "Licence": "HPND",
+  "Maintainer": null,
+  "Maintainer_Email": null,
+  "Package_Url": "https://pypi.org/project/pillow/",
+  "Project_Url": "https://pypi.org/project/pillow/"
+}

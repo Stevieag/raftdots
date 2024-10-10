@@ -1,0 +1,525 @@
+{
+  "Name": "AMQPStorm",
+  "URL": "https://pypi.org/simple/AMQPStorm/",
+  "PURL": "pkg:pypi/amqpstorm@2.10.3",
+  "Version": "2.10.3",
+  "License": "MIT License"
+}
+{
+  "Name": "AMQPStorm-Pool",
+  "URL": "https://pypi.org/simple/AMQPStorm-Pool/",
+  "PURL": "pkg:pypi/amqpstorm-pool@1.0.1",
+  "Version": "1.0.1",
+  "License": "BSD"
+}
+{
+  "Name": "Authlib",
+  "URL": "https://pypi.org/simple/Authlib/",
+  "PURL": "pkg:pypi/authlib@1.2.0",
+  "Version": "1.2.0",
+  "License": "BSD 3-Clause License"
+}
+{
+  "Name": "Jinja2",
+  "URL": "https://pypi.org/simple/Jinja2/",
+  "PURL": "pkg:pypi/jinja2@3.1.3",
+  "Version": "3.1.3",
+  "License": "BSD-3-Clause"
+}
+{
+  "Name": "PyJWT",
+  "URL": "https://pypi.org/simple/PyJWT/",
+  "PURL": "pkg:pypi/pyjwt@2.4.0",
+  "Version": "2.4.0",
+  "License": "MIT"
+}
+{
+  "Name": "PyYAML",
+  "URL": "https://pypi.org/simple/PyYAML/",
+  "PURL": "pkg:pypi/pyyaml@6.0.1",
+  "Version": "6.0.1",
+  "License": "MIT"
+}
+{
+  "Name": "SQLAlchemy",
+  "URL": "https://pypi.org/simple/SQLAlchemy/",
+  "PURL": "pkg:pypi/sqlalchemy@1.4.47",
+  "Version": "1.4.47",
+  "License": "MIT"
+}
+{
+  "Name": "UnleashClient",
+  "URL": "https://pypi.org/simple/UnleashClient/",
+  "PURL": "pkg:pypi/unleashclient@5.11.2",
+  "Version": "5.11.2",
+  "License": null
+}
+{
+  "Name": "Wand",
+  "URL": "https://pypi.org/simple/Wand/",
+  "PURL": "pkg:pypi/wand@0.6.3",
+  "Version": "0.6.3",
+  "License": "MIT License"
+}
+{
+  "Name": "XlsxWriter",
+  "URL": "https://pypi.org/simple/XlsxWriter/",
+  "PURL": "pkg:pypi/xlsxwriter@1.3.7",
+  "Version": "1.3.7",
+  "License": "BSD"
+}
+{
+  "Name": "aiodns",
+  "URL": "https://pypi.org/simple/aiodns/",
+  "PURL": "pkg:pypi/aiodns@2.0.0",
+  "Version": "2.0.0",
+  "License": null
+}
+{
+  "Name": "aiofiles",
+  "URL": "https://pypi.org/simple/aiofiles/",
+  "PURL": "pkg:pypi/aiofiles@0.8.0",
+  "Version": "0.8.0",
+  "License": "Apache-2.0"
+}
+{
+  "Name": "aioftp",
+  "URL": "https://pypi.org/simple/aioftp/",
+  "PURL": "pkg:pypi/aioftp@0.22.3",
+  "Version": "0.22.3",
+  "License": "Apache License Version 2.0, January 2004 http://www.apache.org/licenses/  TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION  1. Definitions.  \"License\" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.  \"Licensor\" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.  \"Legal Entity\" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, \"control\" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.  \"You\" (or \"Your\") shall mean an individual or Legal Entity exercising permissions granted by this License.  \"Source\" form shall mean the preferred form for making modifications, including but not limited to software source code, documentation source, and configuration files.  \"Object\" form shall mean any form resulting from mechanical transformation or translation of a Source form, including but not limited to compiled object code, generated documentation, and conversions to other media types.  \"Work\" shall mean the work of authorship, whether in Source or Object form, made available under the License, as indicated by a copyright notice that is included in or attached to the work (an example is provided in the Appendix below).  \"Derivative Works\" shall mean any work, whether in Source or Object form, that is based on (or derived from) the Work and for which the editorial revisions, annotations, elaborations, or other modifications represent, as a whole, an original work of authorship. For the purposes of this License, Derivative Works shall not include works that remain separable from, or merely link (or bind by name) to the interfaces of, the Work and Derivative Works thereof.  \"Contribution\" shall mean any work of authorship, including the original version of the Work and any modifications or additions to that Work or Derivative Works thereof, that is intentionally submitted to Licensor for inclusion in the Work by the copyright owner or by an individual or Legal Entity authorized to submit on behalf of the copyright owner. For the purposes of this definition, \"submitted\" means any form of electronic, verbal, or written communication sent to the Licensor or its representatives, including but not limited to communication on electronic mailing lists, source code control systems, and issue tracking systems that are managed by, or on behalf of, the Licensor for the purpose of discussing and improving the Work, but excluding communication that is conspicuously marked or otherwise designated in writing by the copyright owner as \"Not a Contribution.\"  \"Contributor\" shall mean Licensor and any individual or Legal Entity on behalf of whom a Contribution has been received by Licensor and subsequently incorporated within the Work.  2. Grant of Copyright License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable copyright license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.  3. Grant of Patent License. Subject to the terms and conditions of this License, each Contributor hereby grants to You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent license to make, have made, use, offer to sell, sell, import, and otherwise transfer the Work, where such license applies only to those patent claims licensable by such Contributor that are necessarily infringed by their Contribution(s) alone or by combination of their Contribution(s) with the Work to which such Contribution(s) was submitted. If You institute patent litigation against any entity (including a cross-claim or counterclaim in a lawsuit) alleging that the Work or a Contribution incorporated within the Work constitutes direct or contributory patent infringement, then any patent licenses granted to You under this License for that Work shall terminate as of the date such litigation is filed.  4. Redistribution. You may reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form, provided that You meet the following conditions:  (a) You must give any other recipients of the Work or Derivative Works a copy of this License; and  (b) You must cause any modified files to carry prominent notices stating that You changed the files; and  (c) You must retain, in the Source form of any Derivative Works that You distribute, all copyright, patent, trademark, and attribution notices from the Source form of the Work, excluding those notices that do not pertain to any part of the Derivative Works; and  (d) If the Work includes a \"NOTICE\" text file as part of its distribution, then any Derivative Works that You distribute must include a readable copy of the attribution notices contained within such NOTICE file, excluding those notices that do not pertain to any part of the Derivative Works, in at least one of the following places: within a NOTICE text file distributed as part of the Derivative Works; within the Source form or documentation, if provided along with the Derivative Works; or, within a display generated by the Derivative Works, if and wherever such third-party notices normally appear. The contents of the NOTICE file are for informational purposes only and do not modify the License. You may add Your own attribution notices within Derivative Works that You distribute, alongside or as an addendum to the NOTICE text from the Work, provided that such additional attribution notices cannot be construed as modifying the License.  You may add Your own copyright statement to Your modifications and may provide additional or different license terms and conditions for use, reproduction, or distribution of Your modifications, or for any such Derivative Works as a whole, provided Your use, reproduction, and distribution of the Work otherwise complies with the conditions stated in this License.  5. Submission of Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted for inclusion in the Work by You to the Licensor shall be under the terms and conditions of this License, without any additional terms or conditions. Notwithstanding the above, nothing herein shall supersede or modify the terms of any separate license agreement you may have executed with Licensor regarding such Contributions.  6. Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Work and reproducing the content of the NOTICE file.  7. Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.  8. Limitation of Liability. In no event and under no legal theory, whether in tort (including negligence), contract, or otherwise, unless required by applicable law (such as deliberate and grossly negligent acts) or agreed to in writing, shall any Contributor be liable to You for damages, including any direct, indirect, special, incidental, or consequential damages of any character arising as a result of this License or out of the use or inability to use the Work (including but not limited to damages for loss of goodwill, work stoppage, computer failure or malfunction, or any and all other commercial damages or losses), even if such Contributor has been advised of the possibility of such damages.  9. Accepting Warranty or Additional Liability. While redistributing the Work or Derivative Works thereof, You may choose to offer, and charge a fee for, acceptance of support, warranty, indemnity, or other liability obligations and/or rights consistent with this License. However, in accepting such obligations, You may act only on Your own behalf and on Your sole responsibility, not on behalf of any other Contributor, and only if You agree to indemnify, defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against, such Contributor by reason of your accepting any such warranty or additional liability.  END OF TERMS AND CONDITIONS  APPENDIX: How to apply the Apache License to your work.  To apply the Apache License to your work, attach the following boilerplate notice, with the fields enclosed by brackets \"[]\" replaced with your own identifying information. (Don't include the brackets!)  The text should be enclosed in the appropriate comment syntax for the file format. We also recommend that a file or class name and description of purpose be included on the same \"printed page\" as the copyright notice for easier identification within third-party archives.  Copyright [yyyy] [name of copyright owner]  Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at  http://www.apache.org/licenses/LICENSE-2.0  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License. "
+}
+{
+  "Name": "aiohttp",
+  "URL": "https://pypi.org/simple/aiohttp/",
+  "PURL": "pkg:pypi/aiohttp@3.8.0",
+  "Version": "3.8.0",
+  "License": "Apache 2"
+}
+{
+  "Name": "aiohttp_retry",
+  "URL": "https://pypi.org/simple/aiohttp_retry/",
+  "PURL": "pkg:pypi/aiohttp-retry@2.8.3",
+  "Version": "2.8.3",
+  "License": "MIT"
+}
+{
+  "Name": "aiokafka",
+  "URL": "https://pypi.org/simple/aiokafka/",
+  "PURL": "pkg:pypi/aiokafka@0.8.1",
+  "Version": "0.8.1",
+  "License": "Apache 2"
+}
+{
+  "Name": "aiosmtplib",
+  "URL": "https://pypi.org/simple/aiosmtplib/",
+  "PURL": "pkg:pypi/aiosmtplib@2.0.1",
+  "Version": "2.0.1",
+  "License": "MIT"
+}
+{
+  "Name": "alembic",
+  "URL": "https://pypi.org/simple/alembic/",
+  "PURL": "pkg:pypi/alembic@1.10.4",
+  "Version": "1.10.4",
+  "License": "MIT"
+}
+{
+  "Name": "amqp",
+  "URL": "https://pypi.org/simple/amqp/",
+  "PURL": "pkg:pypi/amqp@5.1.1",
+  "Version": "5.1.1",
+  "License": "BSD"
+}
+{
+  "Name": "anyascii",
+  "URL": "https://pypi.org/simple/anyascii/",
+  "PURL": "pkg:pypi/anyascii@0.3.2",
+  "Version": "0.3.2",
+  "License": null
+}
+{
+  "Name": "apache-libcloud",
+  "URL": "https://pypi.org/simple/apache-libcloud/",
+  "PURL": "pkg:pypi/apache-libcloud@3.2.0",
+  "Version": "3.2.0",
+  "License": "Apache License (2.0)"
+}
+{
+  "Name": "argon2-cffi",
+  "URL": "https://pypi.org/simple/argon2-cffi/",
+  "PURL": "pkg:pypi/argon2-cffi@20.1.0",
+  "Version": "20.1.0",
+  "License": "MIT"
+}
+{
+  "Name": "arrest",
+  "URL": "https://pypi.org/simple/arrest/",
+  "PURL": "pkg:pypi/arrest@0.1.9",
+  "Version": "0.1.9",
+  "License": "MIT"
+}
+{
+  "Name": "asyncpg",
+  "URL": "https://pypi.org/simple/asyncpg/",
+  "PURL": "pkg:pypi/asyncpg@0.27.0",
+  "Version": "0.27.0",
+  "License": "Apache License, Version 2.0"
+}
+{
+  "Name": "asyncssh",
+  "URL": "https://pypi.org/simple/asyncssh/",
+  "PURL": "pkg:pypi/asyncssh@2.11.0",
+  "Version": "2.11.0",
+  "License": "Eclipse Public License v2.0"
+}
+{
+  "Name": "backoff",
+  "URL": "https://pypi.org/simple/backoff/",
+  "PURL": "pkg:pypi/backoff@2.2.1",
+  "Version": "2.2.1",
+  "License": "MIT"
+}
+{
+  "Name": "beanie",
+  "URL": "https://pypi.org/simple/beanie/",
+  "PURL": "pkg:pypi/beanie@1.25.0",
+  "Version": "1.25.0",
+  "License": null
+}
+{
+  "Name": "betterproto",
+  "URL": "https://pypi.org/simple/betterproto/",
+  "PURL": "pkg:pypi/betterproto@1.2.5",
+  "Version": "1.2.5",
+  "License": "MIT"
+}
+{
+  "Name": "celery",
+  "URL": "https://pypi.org/simple/celery/",
+  "PURL": "pkg:pypi/celery@5.3.0",
+  "Version": "5.3.0",
+  "License": "BSD-3-Clause"
+}
+{
+  "Name": "cryptography",
+  "URL": "https://pypi.org/simple/cryptography/",
+  "PURL": "pkg:pypi/cryptography@3.4.6",
+  "Version": "3.4.6",
+  "License": "BSD or Apache License, Version 2.0"
+}
+{
+  "Name": "databases",
+  "URL": "https://pypi.org/simple/databases/",
+  "PURL": "pkg:pypi/databases@0.7.0",
+  "Version": "0.7.0",
+  "License": "BSD"
+}
+{
+  "Name": "ddtrace",
+  "URL": "https://pypi.org/simple/ddtrace/",
+  "PURL": "pkg:pypi/ddtrace@2.1.5",
+  "Version": "2.1.5",
+  "License": "BSD"
+}
+{
+  "Name": "deprecation",
+  "URL": "https://pypi.org/simple/deprecation/",
+  "PURL": "pkg:pypi/deprecation@2.1.0",
+  "Version": "2.1.0",
+  "License": "Apache 2"
+}
+{
+  "Name": "fastapi",
+  "URL": "https://pypi.org/simple/fastapi/",
+  "PURL": "pkg:pypi/fastapi@0.110.0",
+  "Version": "0.110.0",
+  "License": null
+}
+{
+  "Name": "firebase-admin",
+  "URL": "https://pypi.org/simple/firebase-admin/",
+  "PURL": "pkg:pypi/firebase-admin@4.4.0",
+  "Version": "4.4.0",
+  "License": "Apache License 2.0"
+}
+{
+  "Name": "gcloud-aio-storage",
+  "URL": "https://pypi.org/simple/gcloud-aio-storage/",
+  "PURL": "pkg:pypi/gcloud-aio-storage@9.2.0",
+  "Version": "9.2.0",
+  "License": "MIT"
+}
+{
+  "Name": "google-cloud-logging",
+  "URL": "https://pypi.org/simple/google-cloud-logging/",
+  "PURL": "pkg:pypi/google-cloud-logging@3.8.0",
+  "Version": "3.8.0",
+  "License": "Apache 2.0"
+}
+{
+  "Name": "grpcio",
+  "URL": "https://pypi.org/simple/grpcio/",
+  "PURL": "pkg:pypi/grpcio@1.59.2",
+  "Version": "1.59.2",
+  "License": "Apache License 2.0"
+}
+{
+  "Name": "grpcio-status",
+  "URL": "https://pypi.org/simple/grpcio-status/",
+  "PURL": "pkg:pypi/grpcio-status@1.48.2",
+  "Version": "1.48.2",
+  "License": "Apache License 2.0"
+}
+{
+  "Name": "grpcio-tools",
+  "URL": "https://pypi.org/simple/grpcio-tools/",
+  "PURL": "pkg:pypi/grpcio-tools@1.48.2",
+  "Version": "1.48.2",
+  "License": "Apache License 2.0"
+}
+{
+  "Name": "gunicorn",
+  "URL": "https://pypi.org/simple/gunicorn/",
+  "PURL": "pkg:pypi/gunicorn@20.1.0",
+  "Version": "20.1.0",
+  "License": "MIT"
+}
+{
+  "Name": "htmltextconvert",
+  "URL": "https://pypi.org/simple/htmltextconvert/",
+  "PURL": "pkg:pypi/htmltextconvert@0.1.2",
+  "Version": "0.1.2",
+  "License": "Apache License 2.0"
+}
+{
+  "Name": "httpx",
+  "URL": "https://pypi.org/simple/httpx/",
+  "PURL": "pkg:pypi/httpx@0.24.1",
+  "Version": "0.24.1",
+  "License": null
+}
+{
+  "Name": "imgkit",
+  "URL": "https://pypi.org/simple/imgkit/",
+  "PURL": "pkg:pypi/imgkit@1.2.2",
+  "Version": "1.2.2",
+  "License": null
+}
+{
+  "Name": "itsdangerous",
+  "URL": "https://pypi.org/simple/itsdangerous/",
+  "PURL": "pkg:pypi/itsdangerous@1.1.0",
+  "Version": "1.1.0",
+  "License": "BSD"
+}
+{
+  "Name": "joblib",
+  "URL": "https://pypi.org/simple/joblib/",
+  "PURL": "pkg:pypi/joblib@1.2.0",
+  "Version": "1.2.0",
+  "License": "BSD"
+}
+{
+  "Name": "jsonpath-ng",
+  "URL": "https://pypi.org/simple/jsonpath-ng/",
+  "PURL": "pkg:pypi/jsonpath-ng@1.5.3",
+  "Version": "1.5.3",
+  "License": "Apache 2.0"
+}
+{
+  "Name": "lockfile",
+  "URL": "https://pypi.org/simple/lockfile/",
+  "PURL": "pkg:pypi/lockfile@0.12.2",
+  "Version": "0.12.2",
+  "License": null
+}
+{
+  "Name": "lxml",
+  "URL": "https://pypi.org/simple/lxml/",
+  "PURL": "pkg:pypi/lxml@4.9.1",
+  "Version": "4.9.1",
+  "License": "BSD"
+}
+{
+  "Name": "lxml-stubs",
+  "URL": "https://pypi.org/simple/lxml-stubs/",
+  "PURL": "pkg:pypi/lxml-stubs@0.4.0",
+  "Version": "0.4.0",
+  "License": null
+}
+{
+  "Name": "numpy",
+  "URL": "https://pypi.org/simple/numpy/",
+  "PURL": "pkg:pypi/numpy@1.22.2",
+  "Version": "1.22.2",
+  "License": "BSD"
+}
+{
+  "Name": "openai",
+  "URL": "https://pypi.org/simple/openai/",
+  "PURL": "pkg:pypi/openai@0.27.2",
+  "Version": "0.27.2",
+  "License": null
+}
+{
+  "Name": "openpyxl",
+  "URL": "https://pypi.org/simple/openpyxl/",
+  "PURL": "pkg:pypi/openpyxl@3.0.9",
+  "Version": "3.0.9",
+  "License": "MIT"
+}
+{
+  "Name": "orjson",
+  "URL": "https://pypi.org/simple/orjson/",
+  "PURL": "pkg:pypi/orjson@3.9.10",
+  "Version": "3.9.10",
+  "License": "Apache-2.0 OR MIT"
+}
+{
+  "Name": "pandas",
+  "URL": "https://pypi.org/simple/pandas/",
+  "PURL": "pkg:pypi/pandas@1.4.2",
+  "Version": "1.4.2",
+  "License": "BSD-3-Clause"
+}
+{
+  "Name": "pillow",
+  "URL": "https://pypi.org/simple/pillow/",
+  "PURL": "pkg:pypi/pillow@10.4.0",
+  "Version": "10.4.0",
+  "License": "HPND"
+}
+{
+  "Name": "prometheus-fastapi-instrumentator",
+  "URL": "https://pypi.org/simple/prometheus-fastapi-instrumentator/",
+  "PURL": "pkg:pypi/prometheus-fastapi-instrumentator@5.10.0",
+  "Version": "5.10.0",
+  "License": "ISC"
+}
+{
+  "Name": "protobuf",
+  "URL": "https://pypi.org/simple/protobuf/",
+  "PURL": "pkg:pypi/protobuf@3.20.3",
+  "Version": "3.20.3",
+  "License": "BSD-3-Clause"
+}
+{
+  "Name": "psycopg2",
+  "URL": "https://pypi.org/simple/psycopg2/",
+  "PURL": "pkg:pypi/psycopg2@2.9.5",
+  "Version": "2.9.5",
+  "License": "LGPL with exceptions"
+}
+{
+  "Name": "pydantic",
+  "URL": "https://pypi.org/simple/pydantic/",
+  "PURL": "pkg:pypi/pydantic@2.6.4",
+  "Version": "2.6.4",
+  "License": null
+}
+{
+  "Name": "pymongo",
+  "URL": "https://pypi.org/simple/pymongo/",
+  "PURL": "pkg:pypi/pymongo@4.4.1",
+  "Version": "4.4.1",
+  "License": "Apache License, Version 2.0"
+}
+{
+  "Name": "pypdf",
+  "URL": "https://pypi.org/simple/pypdf/",
+  "PURL": "pkg:pypi/pypdf@4.2.0",
+  "Version": "4.2.0",
+  "License": null
+}
+{
+  "Name": "python-multipart",
+  "URL": "https://pypi.org/simple/python-multipart/",
+  "PURL": "pkg:pypi/python-multipart@0.0.5",
+  "Version": "0.0.5",
+  "License": "Apache"
+}
+{
+  "Name": "redis",
+  "URL": "https://pypi.org/simple/redis/",
+  "PURL": "pkg:pypi/redis@4.5.1",
+  "Version": "4.5.1",
+  "License": "MIT"
+}
+{
+  "Name": "remote-pdb",
+  "URL": "https://pypi.org/simple/remote-pdb/",
+  "PURL": "pkg:pypi/remote-pdb@2.1.0",
+  "Version": "2.1.0",
+  "License": "BSD-2-Clause"
+}
+{
+  "Name": "requests",
+  "URL": "https://pypi.org/simple/requests/",
+  "PURL": "pkg:pypi/requests@2.28.1",
+  "Version": "2.28.1",
+  "License": "Apache 2.0"
+}
+{
+  "Name": "sentry-sdk",
+  "URL": "https://pypi.org/simple/sentry-sdk/",
+  "PURL": "pkg:pypi/sentry-sdk@1.16.0",
+  "Version": "1.16.0",
+  "License": "MIT"
+}
+{
+  "Name": "starlette-context",
+  "URL": "https://pypi.org/simple/starlette-context/",
+  "PURL": "pkg:pypi/starlette-context@0.3.3",
+  "Version": "0.3.3",
+  "License": "MIT"
+}
+{
+  "Name": "sysfs",
+  "URL": "https://pypi.org/simple/sysfs/",
+  "PURL": "pkg:pypi/sysfs@0.1.0",
+  "Version": "0.1.0",
+  "License": null
+}
+{
+  "Name": "uvicorn",
+  "URL": "https://pypi.org/simple/uvicorn/",
+  "PURL": "pkg:pypi/uvicorn@0.22.0",
+  "Version": "0.22.0",
+  "License": null
+}
+{
+  "Name": "websockets",
+  "URL": "https://pypi.org/simple/websockets/",
+  "PURL": "pkg:pypi/websockets@10.4",
+  "Version": "10.4",
+  "License": "BSD"
+}
+{
+  "Name": "xlrd",
+  "URL": "https://pypi.org/simple/xlrd/",
+  "PURL": "pkg:pypi/xlrd@2.0.1",
+  "Version": "2.0.1",
+  "License": "BSD"
+}
+{
+  "Name": "xmlschema",
+  "URL": "https://pypi.org/simple/xmlschema/",
+  "PURL": "pkg:pypi/xmlschema@1.11.2",
+  "Version": "1.11.2",
+  "License": "MIT"
+}
+{
+  "Name": "xmltodict",
+  "URL": "https://pypi.org/simple/xmltodict/",
+  "PURL": "pkg:pypi/xmltodict@0.12.0",
+  "Version": "0.12.0",
+  "License": "MIT"
+}
+{
+  "Name": "zeep",
+  "URL": "https://pypi.org/simple/zeep/",
+  "PURL": "pkg:pypi/zeep@4.1.0",
+  "Version": "4.1.0",
+  "License": "MIT"
+}
