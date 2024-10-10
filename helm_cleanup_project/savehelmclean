@@ -1,0 +1,110 @@
+
+#
+## Function to convert date to seconds
+#date_to_seconds() {
+#    local date_string="$1"
+#    # Remove the fractional seconds and UTC indicator
+#    date_string=${date_string%.*}
+#    date_string=${date_string% UTC}
+#    # Convert to seconds
+#    date -j -f "%Y-%m-%d %H:%M:%S" "$date_string" "+%s" 2>/dev/null || echo "0"
+#}
+#
+## Function to get base name of deployment
+#get_base_name() {
+#    echo "${1}" | awk -F'-' '{if (NF < 3) {NF--; print} else {print $0}}' OFS='-'
+#    #|grep -E '.*-.*-.*-.*-' | cut -d- -f1-4
+#    #echo "${1%%-*-*-*}" | cut -d- -f1
+#}
+#
+## Function to uninstall a release
+#uninstall_release() {
+#    local name=$1
+#    local namespace=$2
+#    #echo "Uninstalling release $name in namespace $namespace"
+#    #helm uninstall "$name" -n "$namespace"
+#}
+#
+## Get current timestamp
+#current_time=$(date "+%s")
+#
+## Get all releases
+#releases=$(helm list --namespace default --all --output json)
+#
+## Create an associative array to store the oldest release for each base name and namespace
+#typeset -A oldest_releases
+#
+## Create an associative array to count releases for each base name and namespace
+#typeset -A release_counts
+#
+## First pass: identify the oldest release for each base name and namespace and count releases
+#echo "$releases" | jq -c '.[]' | while read -r release; do
+#    name=$(echo "$release" | jq -r '.name')
+#    namespace=$(echo "$release" | jq -r '.namespace')
+#    updated=$(echo "$release" | jq -r '.updated')
+#    base_name=$(get_base_name "$name")
+#    key="${base_name}:${namespace}"
+#    current_oldest="${oldest_releases[$key]}"
+#    release_time=$(date_to_seconds "$updated")
+#    if [[ "$release_time" == "0" ]]; then
+#        echo "Warning: Could not parse date for release $name. Skipping."
+#        continue
+#    fi
+#    if [[ -z "$current_oldest" ]] || (( release_time < $(date_to_seconds "$(echo "$current_oldest" | jq -r '.updated')") )); then
+#        oldest_releases[$key]=$release
+#    fi
+#    # Count releases
+#    (( release_counts[$key]++ ))
+#done
+#
+## Second pass: process and delete releases
+#echo "$releases" | jq -c '.[]' | while read -r release; do
+#    name=$(echo "$release" | jq -r '.name')
+#    namespace=$(echo "$release" | jq -r '.namespace')
+#    release_status=$(echo "$release" | jq -r '.status')
+#    updated=$(echo "$release" | jq -r '.updated')
+#    base_name=$(get_base_name "$name")
+#    release_time=$(date_to_seconds "$updated")
+#    if [[ "$release_time" == "0" ]]; then
+#        echo "Warning: Could not parse date for release $name. Skipping."
+#        continue
+#    fi
+#    age_days=$(( (current_time - release_time) / 86400 ))
+#
+#    # Check if it's the only instance
+#    if (( ${release_counts[${base_name}:${namespace}]} == 1 )); then
+#        echo "Retaining sole instance of $name (base: $base_name) in namespace $namespace"
+#        continue
+#    fi
+#
+#    # Check if it's a failed release
+#    if [[ "$release_status" == "failed" ]]; then
+#        echo "Found failed release $name in namespace $namespace"
+#        uninstall_release "$name" "$namespace"
+#        continue
+#    fi
+#
+#    # Check if it's less than a week old
+#    if (( age_days <= 7 )); then
+#        echo "Retaining release $name (base: $base_name) in namespace $namespace (age: $age_days days)"
+#        continue
+#    fi
+#
+#    # Check if it's the oldest release
+#    oldest_release="${oldest_releases[${base_name}:${namespace}]}"
+#    oldest_time=$(date_to_seconds "$(echo "$oldest_release" | jq -r '.updated')")
+#    if [[ "$release_time" == "$oldest_time" ]]; then
+#        echo "Retaining oldest release $name (base: $base_name) in namespace $namespace"
+#        continue
+#    fi
+#
+#    # If we've reached this point, the release should be uninstalled
+#    echo "Uninstalling release $name (base: $base_name) in namespace $namespace (age: $age_days days)"
+#    uninstall_release "$name" "$namespace"
+#done
+#
+## Uncomment the following line if you want to generate a CSV output
+## helm list --all-namespaces --all -o json | jq -r '(["name","namespace","revision","updated","status","chart","app_version"] | @csv), (.[] | [.name, .namespace, .revision, .updated, .status, .chart, .app_version] | @csv)' > outputnow.csv
+#
+#
+#
